@@ -32,8 +32,8 @@ portfolio/
 ├── index.html          # Main HTML file
 ├── styles.css          # Custom CSS animations and styles
 ├── script.js           # JavaScript functionality
-├── assets/
-│   └── avatar.svg      # Profile avatar image
+├── images/
+│   └── me-cool.jpg      # Profile avatar image
 └── README.md           # Project documentation
 ```
 
