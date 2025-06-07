@@ -139,15 +139,15 @@ class PortfolioApp {
             },
             {
                 id: 2,
-                title: "Task Management App",
-                description: "Collaborative project management tool",
-                fullDescription: "A comprehensive task management application with real-time collaboration features, built using Vue.js and Firebase for seamless team productivity.",
-                technologies: ["vue", "javascript"],
-                image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+                title: "Chat App",
+                description: "MERN Stack Project: Realtime Chat App Tutorial - React.js & Socket.io",
+                fullDescription: "Build a Realtime Chat App with MERN Stack. Completely beginner friendly.",
+                technologies: ["react", "node", "javascript", "socket.io"],
+                image: "./images/chat_app/chat_app_backlop.png",
                 images: [
-                    "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=300&fit=crop",
-                    "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop"
+                    "./images/chat_app/chat_piece_message.png",
+                    "./images/chat_app/chat_app_tablet.png",
+                    "./images/chat_app/chat_app_mobile.png"
                 ],
                 features: [
                     "Real-time collaboration",
