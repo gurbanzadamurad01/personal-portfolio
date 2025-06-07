@@ -105,25 +105,37 @@ class PortfolioApp {
         this.projects = [
             {
                 id: 1,
-                title: "E-Commerce Platform",
-                description: "Modern online store with payment integration",
-                fullDescription: "A comprehensive e-commerce platform built with React and Node.js, featuring user authentication, product catalog, shopping cart, and secure payment processing through Stripe integration.",
-                technologies: ["react", "node", "javascript"],
-                image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+                title: "Multi Vendor E Commerce",
+                description: "Build and Deploy a Multi Vendor E Commerce With Nextjs, React & Stripe Connect",
+                fullDescription: "You’ll build your own multi-vendor e-commerce app where creators have their own storefronts, sell digital products, and get paid through Stripe Connect. You’ll cover features like subdomains, product reviews, personal libraries, file delivery, and automatic platform fees. There’s also an admin dashboard with role-based access control. Built with Next.js 15, Payload and Stripe Connect. A solid, practical project with everything you need to learn how modern platforms like this are made.",
+                technologies: ["react", "node", "nextjs", "stripe", "javascript", "tailwindcss", "payload", "shadcnui", "mongodb"],
+                image: "./images/ecommerce/ecommerce_design.png",
                 images: [
-                    "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
-                    "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
-                    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop"
+                    "./images/ecommerce/homepage.png",
+                    "./images/ecommerce/register.png",
+                    "./images/ecommerce/checkout.png"
                 ],
                 features: [
-                    "User authentication and profile management",
-                    "Product catalog with search and filtering",
-                    "Shopping cart and checkout process",
-                    "Secure payment integration",
-                    "Admin dashboard for inventory management"
+                    "Multi-tenant architecture",
+                    "Vendor subdomains",
+                    "Custom merchant storefronts",
+                    "Stripe Connect integration",
+                    "Automatic platform fees",
+                    "Product ratings & reviews",
+                    "User purchase library",
+                    "Role-based access control",
+                    "Admin dashboard",
+                    "Merchant dashboard",
+                    "Payload CMS backend",
+                    "Category & product filtering",
+                    "Search functionality",
+                    "Image upload support",
+                    "Built with Next.js 15",
+                    "TailwindCSS V4 styling",
+                    "ShadcnUI components",
                 ],
-                liveUrl: "#",
-                githubUrl: "#"
+                liveUrl: "https://ecommerce-peach-ten-55.vercel.app/",
+                githubUrl: "https://github.com/gurbanzadamurad01/ecommerce"
             },
             {
                 id: 2,
