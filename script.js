@@ -145,9 +145,9 @@ class PortfolioApp {
                 technologies: ["react", "node", "javascript", "socket.io"],
                 image: "./images/chat_app/chat_app_backlop.png",
                 images: [
-                    "./images/chat_app/chat_piece_message.png",
+                    "./images/chat_app/chat_app_home.png",
                     "./images/chat_app/chat_app_tablet.png",
-                    "./images/chat_app/chat_app_mobile.png"
+                    "./images/chat_app/chat_piece_message.png"
                 ],
                 features: [
                     "Real-time collaboration",
