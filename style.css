@@ -250,6 +250,7 @@ body {
 .project-detail-images .side-image {
     border-radius: 8px;
     overflow: hidden;
+    background: #ececec;
 }
 
 .project-detail-images img {
